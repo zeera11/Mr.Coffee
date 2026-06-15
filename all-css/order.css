@@ -1,0 +1,70 @@
+body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 40px;
+      background-color: #A39681;
+    }
+
+    form {
+      max-width: 500px;
+      margin: auto;
+      background: #EBE3D5;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    input, textarea, select {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    button {
+      background-color: #6b4f3b;
+      color: rgb(186, 184, 184);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .error {
+      color: red;
+      font-size: 14px;
+      margin-top: -15px;
+      margin-bottom: 10px;
+    }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 20px;
+    background-color: #A39681; 
+
+  form {
+    max-width: 100%;
+    padding: 20px;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  input, textarea, select {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+}

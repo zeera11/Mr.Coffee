@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Order Form - Mr. Coffee</title>
+
+  <link rel="stylesheet" href="../all-css/order.css">
+</head>
+<body>
+  <form id="orderForm" onsubmit="return validateForm()">
+    <h2>Order Your Coffee</h2>
+
+    <label for="name">Name</label>
+    <input type="text" id="name" />
+    <div class="error" id="errorName"></div>
+
+    <label for="email">Email</label>
+    <input type="text" id="email" />
+    <div class="error" id="errorEmail"></div>
+
+    <label for="address">Address</label>
+    <textarea id="address" rows="3"></textarea>
+    <div class="error" id="errorAddress"></div>
+
+    <label for="addon">Add-ons</label>
+    <select id="addon">
+      <option value="">-- Select --</option>
+      <option value="extra shot">Extra Shot</option>
+      <option value="oat milk">Oat Milk</option>
+      <option value="whipped cream">Whipped Cream</option>
+    </select>
+    <div class="error" id="errorAddon"></div>
+
+    <label for="total">Total Price</label>
+    <input type="number" id="total" />
+    <div class="error" id="errorTotal"></div>
+
+    <button type="submit">Order Now</button>
+
+    <script src="../all-js/order.js"></script>
+  </form>
+</body>
+</html>

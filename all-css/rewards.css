@@ -1,0 +1,407 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #F3EEEA;
+    height: 2000px;
+  }
+
+.main-navbar {
+  position: fixed;
+  background-color: rgba(176, 166, 149, 0.9); 
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 60px;
+}
+
+.option {
+  display: flex;
+  gap: 30px;
+}
+
+.option a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.search-icon {
+  height: 40px;
+}
+
+/* ////////////////////////////////////////////////// */
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: -70px;
+}
+
+.intro-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-container h2 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+}
+
+.download-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  font-family: serif;
+  text-align: center;
+  background-color: #B0A695;
+  padding: 70px 0;
+}
+
+.download-box {
+  background-color: #dcd0ba;
+  border-radius: 15px;
+  padding: 30px 40px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
+  max-width: 700px;
+}
+
+.download-box h2{
+  font-size: 26px;
+  color: #2b2b2b;
+  margin-bottom: -9px;
+  margin-top: -5px;
+}
+
+.logo-image {
+  width: 200px;
+  height: auto;
+}
+
+.button-section-container{
+  display: flex;
+  flex-direction: row;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.button-container a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: #4b2e2e;
+  font-weight: bold;
+}
+
+.button-container img {
+  height: 40px;
+  width: 40px;
+  object-fit: contain;
+  transition: transform 0.2s;
+}
+
+.button-container img:hover {
+  transform: scale(1.1);
+}
+
+.repro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 40px 30px;
+}
+
+.repro h2{
+  font-size: 30px;
+}
+
+
+.coffee-loyalty{
+  background-image: url('../asset/coffee\ loyalty\ program.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  height: 350px;
+}
+
+.coffee-loyalty h3{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.repro-box {
+  display: flex;
+  flex-direction: column; 
+  background-color: #f5f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+  max-width: 400px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.repro-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.claim-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.claim-link button{
+  background-color: #776B5D;
+  color: antiquewhite;
+  margin-top: 20px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.2s;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.claim-link button:hover{
+  transform: scale(1.1);
+}
+
+.birthday-perks{
+  background-image: url('../asset/birthday\ perks.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  height: 350px;
+}
+
+.birthday-perks h3{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-discount{
+  background-image: url('../asset/discount.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  height: 350px;
+}
+
+.get-discount h3{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.happy-hours{
+  background-image: url('../asset/happy\ hour.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  height: 350px;
+}
+
+.happy-hours h3{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.combo-deals{
+  background-image: url('../asset/combo\ deals.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  position: relative;
+  height: 355px;
+}
+
+.combo-deals h3{
+  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-card{
+  display: flex;
+  flex-direction: column; 
+  background-color: #a9a2a2;
+  padding: 2px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin: 20px auto;
+  width: 100vw;
+  margin-top: 0px;
+}
+
+/* ///////////////////////////////////////////////////// */
+
+footer {
+  background-color: #B0A695;
+  padding: 40px 20px;
+  color: #000;
+  font-size: 14px;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 20px;
+  border-top: 1px solid #aaa;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .option {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+
+  .intro {
+    flex-direction: column;
+    margin-top: 120px;
+  }
+
+  .intro-container h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .download-section {
+    padding: 40px 20px;
+  }
+
+  .download-box {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .button-section-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .repro {
+    margin: 20px 10px;
+    gap: 30px;
+  }
+
+  .repro h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .repro-box {
+    max-width: 90%;
+    padding: 15px;
+  }
+
+  .title-card {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .coffee-loyalty,
+  .birthday-perks,
+  .get-discount,
+  .happy-hours,
+  .combo-deals {
+    height: 200px;
+    background-position: center;
+  }
+
+  .coffee-loyalty h3,
+  .birthday-perks h3,
+  .get-discount h3,
+  .happy-hours h3,
+  .combo-deals h3 {
+    font-size: 24px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer-column {
+    max-width: 100%;
+  }
+}

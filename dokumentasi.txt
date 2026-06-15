@@ -1,0 +1,36 @@
+Dokumentasi Project HCI Lab 
+
+
+1. Judul Proyek
+
+Mr.Coffee Website
+
+
+
+2. Deskripsi Proyek
+
+Mr.Coffee is a digital coffee ordering app designed to enhance customer experience by providing an easy-to-use platform to explore menus, order drinks, check rewards, and learn the story behind the coffee.
+
+
+
+
+4. References & Asset Sources
+
+Images:
+
+Coffee Beans: https://unsplash.com/photos/sample1
+
+Barista Working: https://unsplash.com/photos/sample2
+
+Icons: 
+
+Menu Icons: https://www.flaticon.com/free-icons/coffee
+
+Fonts:
+
+Main Typeface: Roboto - Google Fonts
+
+
+
+
+

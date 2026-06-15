@@ -1,0 +1,492 @@
+  body {
+        margin: 0;
+        font-family: 'Georgia', serif;
+        background-color: #F3EEEA;
+      }
+
+    .main-navbar {
+      position: fixed;
+      background-color: rgba(176, 166, 149, 0.9); 
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 15px 40px;
+      display: flex;
+      justify-content: center;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .navbar-container {
+      max-width: 1200px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      height: 60px;
+    }
+
+    .option {
+      display: flex;
+      gap: 30px;
+    }
+
+    .option a {
+      text-decoration: none;
+      color: #000;
+      font-size: 16px;
+    }
+
+    .search-icon {
+      height: 40px;
+    }
+/* ///////////////////////////////////////////////////// */
+
+.slogan {
+  position: relative;
+  height: 500px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../asset/banner home.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+  padding: 0;
+  
+}
+
+.slogan-container{
+  background-color: rgba(250, 235, 215, 0.729);
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.slogan-container h1{
+  z-index: 2;
+  position: relative;
+  color: rgb(131, 126, 126);
+  font-size: 45px;
+}
+
+
+.begin{
+  height: 200px;
+  width: 100vw;
+  background-image: url("../asset/coffee\ beans\ vertical.png"), linear-gradient(to right, #6b4329a1, #fff);
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.begin-container{
+  display: flex;
+  background-color: rgba(240, 233, 233, 0.616);
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.begin-container p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0 50px;
+}
+
+.most-ordered{
+  height: 1300px;
+  width: 100vw;
+  display: flex;
+  background-color: #EBE3D5;
+  margin-bottom: 50px;
+  flex-direction: column;
+}
+
+.most-ordered-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.most-ordered-container p{
+  padding: 5px 5px;
+}
+
+.most-ordered-container h2{
+  padding: 30px 50px;
+}
+
+.menu-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  background-color: #6c5a45da;
+  padding: 50px 20px;
+  border-radius: 10px;
+}
+
+
+.menu-card{
+  background-color: #EBE3D5;
+  border-radius: 10px;
+  padding: 17px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+
+.menu-card img{
+  width: 70%;
+  height: 200px;
+  border-radius: 14px;
+  object-fit: cover;
+  margin-left: 35px;
+}
+
+.menu-card h3{
+  margin-bottom: 0px;
+}
+
+.menu-card p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 13px;
+}
+
+.menu-card button{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+
+  background-color: #776B5D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+
+  margin: auto;         
+  margin-top: 20px; 
+}
+
+.menu-card button:hover{
+  background-color: #53493e;
+}
+
+.menu-card button:active{
+  background-color: #393127;
+}
+
+.most-ordered-container button{
+  width: 100px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+
+  background-color: #776B5D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin: auto;         
+  margin-top: 30px; 
+}
+
+.most-ordered-container button:hover{
+  background-color: #53493e;
+}
+
+.most-ordered-container button:active{
+  background-color: #393127;
+}
+
+.reward {
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('../asset/happy hour.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 60px 20px;
+  margin-bottom: 50px;
+}
+
+.reward-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.reward-box {
+  background-color: rgba(0, 0, 0, 0.29);
+  color: white;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.reward-box p{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.reward-container button{
+  width: 150px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+
+  background-color: #776B5D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin: auto;         
+  margin-top: 15px; 
+}
+
+.reward-container button:hover{
+  background-color: #53493e;
+}
+
+.reward-container button:active{
+  background-color: #393127;
+}
+
+.founder-brief{
+  background-image: url('../asset/coffee\ beans\ spread.png');
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.founder-brief-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.most-ordered-container,
+.reward-container,
+.founder-brief-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.founder-brief-container p, h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-photo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.text-photo-container h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-bottom: 7px;
+}
+
+.text-photo-container p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: justify;
+  background-color: #856958a6;
+  padding: 20px 20px;
+  border-radius: 10px;
+  margin-top: -15px;
+}
+
+.text-photo-container img{
+  width: 200px;
+  height: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  border: 2px solid #4e4741; 
+}
+
+.founder-brief-container button{
+  width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+
+  background-color: #776B5D;
+  color: whitesmoke;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+
+  margin: auto;         
+  margin-top: 15px; 
+}
+
+.founder-brief-container button:hover{
+  background-color: #53493e;
+}
+
+.founder-brief-container button:active{
+  background-color: #393127;
+}
+
+
+/* ///////////////////////////////////////////////////// */
+
+
+    footer {
+      background-color: #B0A695;
+      padding: 40px 20px;
+      color: #000;
+      font-size: 14px;
+    }
+
+    .footer-content {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 40px;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .footer-column {
+      flex: 1;
+      min-width: 200px;
+      max-width: 300px;
+    }
+
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social-icons img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      padding-top: 20px;
+      border-top: 1px solid #aaa;
+      margin-top: 20px;
+      font-size: 13px;
+    }
+
+
+  @media screen and (max-width: 768px) {
+  .main-navbar {
+    padding: 10px 20px;
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .option {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .search-icon {
+    height: 30px;
+  }
+
+  .slogan {
+    height: 300px;
+    background-position: center;
+  }
+
+  .slogan-container h1 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .begin {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .begin-container p {
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .most-ordered {
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  .menu-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-card {
+    max-width: 90%;
+  }
+
+  .menu-card img {
+    width: 100%;
+    height: 180px;
+    margin-left: 0;
+  }
+
+  .reward-container p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .text-photo-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .text-photo-container p {
+    font-size: 14px;
+  }
+
+  .text-photo-container img {
+    width: 80%;
+    height: auto;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-column {
+    max-width: 90%;
+  }
+}
